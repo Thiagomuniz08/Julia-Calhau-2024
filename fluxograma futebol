@@ -8,7 +8,7 @@ int main (){
    int derrota=0; 
    char nome_time[11]; 
    int qtd_empates;
-   int qtd vitorias;
+   int qtd_vitorias;
    
    printf("Digite o nome do time de futebol: "); 
    scanf("%s", nome_time);
