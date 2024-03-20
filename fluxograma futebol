@@ -23,6 +23,21 @@ int main (){
    printf("O time obteve: %d\n", qtd_vitorias*vitoria, "vitórias!"):
    printf("O time obteve: %d\n", qtd_vitorias*empate, "empates!");
    return 0;
-   
-}
+2 parte
 
+}#include <stdio.h>
+#include <locale.h>
+int main(){
+	setlocale(LC_ALL,"");
+	char time[30];
+	int vitorias, empates, total;
+	printf("Digite do nome do time:\n");
+	scanf("%s",&time);
+	printf("Digite o nº de vitórias:\n");
+	scanf("%d", &vitorias);
+	printf("Digite o nº de empates:\n");
+	scanf("%d", &empates);
+	total = vitorias * 3 + empates;
+	printf("O total de pontos do time %s é %d", time, total);
+	return 0;
+}
