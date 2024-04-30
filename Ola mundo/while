@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int imprimir = 0;
+    while(imprimir <11)
+    
+{
+   printf("Ola mundo\n");
+   imprimir ++;
+   }
+      return 0; 
+   }
+ 
+   
