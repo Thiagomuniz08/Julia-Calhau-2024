@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+    int calculo;
+    int a , b ,c;
+    printf("Digite uma opção de 1 a 4: se nao \n 1- soma \n 2- subtração \n 3- divisão \n 4- multiplicação \n");
+    scanf("%d", &calculo);
+    switch(calculo){
+    case 1:
+    printf("Digite o primeiro número:");
+    scanf("%d", &a);
+    printf("Digite o segundo número:");
+    scanf("%d",&b);
+    c = a + b;
+    printf("A soma é: %d ",c);
+    break;
+    }
+    return 0;
+}
