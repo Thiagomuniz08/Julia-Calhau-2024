@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main (){
+int peso;
+float a, b;
+
+printf("Digite um 1 para masculino e 2 para feminino");
+scanf("%d", &peso);
+
+switch(peso){
+
+case 1:
+printf("Digite a altura masculino");
+scanf("%f", &a);
+b= (72.7 * a) - 58;
+printf("O peso ideal é %2.f",b);
+break;
+
+case 2:
+printf("Digite o peso feminino");
+scanf("%f", &a);
+b= (62.1 * a) - 44.7;
+printf("O peso ideal é %2.f",b);
+break;
+}
+return 0;
+}
