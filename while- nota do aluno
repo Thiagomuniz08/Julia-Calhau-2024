@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main (){
+    float soma, nota1, nota2, nota3, media;
+        soma=0;
+        media=0;
+         do{
+    
+        printf("Digite a primeira nota :");
+        scanf("%f",&nota1);
+        printf("Digite a segunda nota :");
+        scanf("%f", &nota2);
+        printf("Digite a terceira nota :");
+        scanf("%f", &nota3);
+        
+    }while(soma >10);
+      soma = nota1 + nota2 + nota3;
+      media = soma /3;
+       printf("Media %1.f",media);
+       return 0;
+}
